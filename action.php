@@ -100,6 +100,6 @@
 	  $stmt2->execute();
 
 
-	echo "Done shopig";
+	echo "Done shopig Joy Matubber";
 	}
 ?>

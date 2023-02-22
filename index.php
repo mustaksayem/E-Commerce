@@ -14,7 +14,7 @@
 <body>
   <!-- Navbar start -->
   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <a class="navbar-brand" href="index.php"><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;Mobile Store</a>
+    <!-- <a class="navbar-brand" href="index.php"><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;Mobile Store</a> -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -114,7 +114,7 @@
         success: function(response) {
           $("#message").html(response);
           window.scrollTo(0, 0);
-          load_cart_item_number();
+          load_cart_item_number();   //function to update the number of items in the shopping cart 
         }
       });
     });
